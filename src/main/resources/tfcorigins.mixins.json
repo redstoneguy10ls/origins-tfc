@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.redstoneguy10ls.tfcorigins.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.redstoneguy10ls.tfcorigins.mixin.MyMixinConfigPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "TFCFoodDataMixin",
+    "ItemMixin"
+
+  ],
+  "refmap": "tfcorigins.refmap.json"
+}
